@@ -1,0 +1,182 @@
+p.mar-0 {   /*cart field data and checkout field data styling **/
+    margin: 0;
+    font-size: 12px;
+    background: #f2f2f259;
+    padding: 3px 7px;
+    box-shadow: #0000002e 0px 0px 2px;
+}
+p.mar-0 span, p.mar-0 a {
+    float: right;
+}
+td.value.leftside.valid {
+    background: #0080006e;
+}
+.leftside {
+    transition: all 700ms linear;
+}
+ul.check_field_list {
+    margin-left: 0;
+    list-style: none;
+}
+ul.check_field_list li label input {
+    margin-right: 9px !important;
+}
+select.jem-select-field.form-control {
+    min-width: 192px;
+    height: 41px;
+    background: #f2f2f2;
+    outline: 0;
+    border-color: #ccc;
+}
+input.jem-input-field[type="radio"] {
+    outline: 0;
+}
+h2.jem-heading {
+    font-size: 30px;
+    font-family: "Source Sans Pro", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+span.color-box {
+    padding: 0;
+    font-size: 8px;
+    border: 3px solid #fff;
+    box-shadow: #000 0px 0px 1px;
+}
+/********custom radio and check oxes ******;
+/* Customize the label (the container) */
+.container_radio {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    /* font-size: 22px; */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container_radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio button */
+  .container_radio .checkmark {
+    position: absolute;
+    top: 3px;
+    left: 7px;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container_radio:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container_radio input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+ .container_radio .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container_radio input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container_radio .checkmark:after {
+    top: 6px;
+    left: 7px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: white;
+  }
+
+  /* Customize the label (the container) */
+.container_check {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container_check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.container_check .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container_check:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container_check input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.container_check .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container_check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container_check .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+body table.woocommerce-checkout-review-order-table .product-name {
+  width: 75%;
+  word-wrap: break-word;
+}

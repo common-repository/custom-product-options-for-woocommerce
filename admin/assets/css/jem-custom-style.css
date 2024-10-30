@@ -1,0 +1,373 @@
+/*for Common modal*/
+.modal-common {
+	color: #434e65;
+	width: 525px;
+}
+.modal-common .modal-content {
+	padding: 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+}
+.modal-common-color{
+	background: #47c9a2;
+
+}
+.modal-warning-color{
+	background: #ff3547;
+
+}
+.modal-common .modal-header {
+	border-bottom: none;
+	position: relative;
+	text-align: center;
+	margin: -20px -20px 0;
+	border-radius: 5px 5px 0 0;
+	padding: 35px;
+}
+.modal-common h4 {
+	text-align: center;
+	font-size: 36px;
+	margin: 10px 0;
+}
+.modal-common .form-control, .modal-common .btn {
+	min-height: 40px;
+	border-radius: 3px;
+}
+.modal-common .close {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	color: #fff;
+	text-shadow: none;
+	opacity: 0.5;
+}
+.modal-common .close:hover {
+	opacity: 0.8;
+}
+.modal-common.modal-dialog {
+	margin-top: 80px;
+}
+/* END COMMON MODAL */
+/* .fa-stack {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+  } */
+
+  .group-fields-selected {
+    width: inherit;
+    margin: auto;
+    background: #edf3ff;
+  }
+
+  .JemProductOption .form-check-input {
+   position: static;
+  }
+
+.JemProductOption .form-check {
+    padding-left: 0;
+}
+
+.JemProductOption select.form-control:not([size]):not([multiple]) {
+    height: 34px;
+}
+
+
+
+/* Field drag drop */
+.available-fields-list, .fields-selected {
+    width: 100%;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 10px;
+    float: left;
+    margin-right: 10px;
+    font-size: 1.2em;
+  }
+  .available-field-box{
+      width: 100%;
+      border: 1px solid #eee;
+      padding: 3px 0 3px 8px;
+
+    }
+  .available-field-box i{
+    margin-right: 5px;
+}
+
+	.wrapper-color .card-header {
+	background-color: #6200ee;
+  }
+
+  .wrapper-color .card-header .btn {
+	color: #ffffff;
+  }
+
+  .wrapper-color button .close{
+	  color: #ffffff !important;
+  }
+
+
+/*Jem Products Template*/
+.btnIcon {
+
+    font-size: 18px;
+    color: #333;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 18px;
+    margin: 5px;
+
+}
+
+.checkBox {
+    transform: scale(1.1);
+}
+
+.checkBox:focus, .checkBox:active, .checkBox:hover {
+    outline: none;
+}
+
+.mr-1 {
+	margin-right: 1em;
+}
+.mb-1 {
+	margin-bottom: 1em;
+}
+
+.wp-person a:focus .gravatar, a:focus, a:focus .media-icon img {
+  box-shadow: none;
+  outline: none;
+}
+
+/*Product Add Group*/
+
+.pageOuterSection {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+.cardCustomize .card-header {
+  background: #0073aa;
+}
+.cardCustomize .card-body {
+  border: 2px solid #0073aa;
+}
+
+.cardCustomize select.form-control {
+    max-width: 100%;
+}
+.tab-content-customize {
+	padding-top: 15px
+}
+.accordion {
+    margin-bottom: 20px;
+}
+
+.list-group-item.active {
+    background-color: #0073aa !important;
+    border-color: #0073aa !important;
+}
+.btn-link-customize {
+    font-size: .60em;
+}
+
+
+.JemProductOption .ui-sortable.ui-droppable .ui_helper_my_custom_element {
+    height: auto !important;
+    width: 100% !important;
+}
+
+.JemProductOption .ui-sortable .list-group-item {
+    padding: 0;
+}
+
+.accordionWrapper .ui-state-default {
+    border: none;
+}
+
+.accordionWrapper {
+    border: 1px dashed #ccc;
+    padding: 15px 15px 0;
+}
+
+/*Selected Fields*/
+#jem-selected-fields-container {
+padding: 10px;
+border: 1px dashed #aaa;
+background: #eee;
+min-height: 150px;
+ 	
+}
+
+
+/*#jem-field-draggable-wrapper .jem-field-inside {
+    display: none;
+}*/
+
+
+#jem-selected-fields-container .jem-field-draggable h6 {
+    cursor: move;
+}
+
+
+#jem-selected-fields-container .jem-field-draggable h6 {
+  background: #0073aa;
+  color: #fff;
+  padding: 12px 15px;
+  margin-bottom: 0;
+}
+/*#jem-selected-fields-container .jem-field-draggable .jem-field-inside {*/
+  /*padding: 15px;*/
+  /*background: #fff;*/
+/*}*/
+
+
+.jem-field-inside input[type="checkbox"], .jem-field-inside input[type="radio"] {
+  position: static;
+  margin: 0;
+}
+
+.hide_inside_field {display:none;}
+.show_inside_field {display:block;}
+#jem_cpt_field_meta_second .jem-field-inside {
+
+    display: none !important;
+
+}
+
+/******************/
+/*good starts here*/
+/******************/
+.jem-field-draggable {
+    cursor: move;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 3px 0px 3px 10px;
+    background-color: #e2f0fa;
+    line-height: 40px;
+    z-index: 999;
+
+}
+
+.jem-field-draggable i {
+    margin-right: 5px;
+}
+
+/*Once it is dropped inside the selected fields list*/
+#jem-selected-fields-container .jem-field-selected {
+
+    height: auto !important;
+    width: 100% !important;
+    margin-bottom: 10px;
+    border: 2px solid #0073aa;
+    background: #eee;
+    padding: 0 5px;
+}
+
+/* And we need to change a few things*/
+#jem-selected-fields-container .jem-field-selected .jem-field-header{
+    background: #0073aa;
+    color: #fff;
+    padding: 0 10px;
+}
+
+#jem-selected-fields-container .jem-field-draggable{
+    padding: 0;
+}
+
+
+/* Do not display when in the available fields list */
+.jem-field-inside {
+    display: none;
+    padding: 0 10px;
+}
+
+/*But we DO display when it is dropped into the selected field list */
+.jem-field-selected .jem-field-inside {
+    display: block;
+}
+
+/*But we DO display when it is dropped into the selected field list */
+.jem-field-selected .jem-field-inside.jem-hide{
+    display: none;
+}
+
+/* Place holder CSS */
+.jem-fields-selected-placeholder{
+    background: #A8A8A8;
+    min-height: 50px;
+    width: 100%;
+    border: dashed 2px black;
+    padding: 3px 0px 3px 0px;
+    margin-bottom: 10px;
+}
+
+
+/* MODAL STUFF */
+.modal-dialog.modal-notify.modal-danger .modal-header {
+    background-color: #ff3547;
+}
+td.label.leftside label {
+    line-height: 33px;
+}
+a.text-white.btn-link.p-1.jem-delete-field:hover i {
+    color: red;
+}
+
+a.text-white.btn-link.p-1.jem-delete-field:hover {
+    text-decoration: none;
+}
+
+a.text-white.btn-link.p-1.jem-delete-field i {
+    transition: all 600ms linear;
+}
+.productRuleWrapper .form-check {
+    padding: 0;
+}
+
+.productRuleWrapper .form-check input[type="radio"] {
+    position: relative;
+}
+.text-cntr {
+    text-align: center;
+    line-height: 27px;
+}
+
+body .add_row {
+    background: #23282d;
+    border-radius: 0;
+    border-color: white;
+    margin: 10px 0;
+    font-size: 15px;
+}
+.clone_tobe {
+    float: left;
+    width: 100%;
+    display: flex;
+}
+.clonned_items {
+    float: left;
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+}
+.cloned {
+    float: left;
+    width: 100%;
+    display: flex;
+    padding: 3px 0;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    background: #069fe342;
+}
+.clone_tobe .lst {
+    display: none;
+}
+.check_field input.jem-field.form-control[data-jem-field-name="unique_name"] {
+    pointer-events: none !important;
+    cursor: none;
+    background: #ccc !important;
+}
